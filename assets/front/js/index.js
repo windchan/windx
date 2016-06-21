@@ -8,5 +8,5 @@ var collection = bus.Collection('sports');
 var obj = collection.create_obj({'monday': 'soccer'});
 obj.set('tuesday', 'badminton');
 obj.save().then(function(result) {
-	console.log(result);
+	console.log(obj.get('_id'));
 }, function(err) {console.log(err);});
