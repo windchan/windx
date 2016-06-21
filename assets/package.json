@@ -1,0 +1,15 @@
+{
+    "entrance": "/index.html",
+    "proxy-prefixes": {
+        "common": "",
+        "manage-page": "",
+        "manage-api": "",
+        "backend-page": "http://bus.kuaizhan.sohuno.com/apps/5768a5a655d92bad7d0ea6e3/manage",
+        "backend-api": "",
+        "page": "http://bus.kuaizhan.sohuno.com/apps/5768a5a655d92bad7d0ea6e3/front",
+        "api": ""
+    },
+    "proxy-paths": {
+        "common": "*"
+    }
+}
