@@ -1,0 +1,2 @@
+var cachedModules=[];cachedModules[4857]={exports:{}},function(e,t){e.exports=function(){return"test"}}.call(this,cachedModules[4857],cachedModules[4857].exports);var test=cachedModules[4857].exports;BUS.Cloud.define("test",function(e,t){}),BUS.Cloud.define("test1",function(e,t){var o=BUS.Collection("test").create_obj({test:1});o.save().then(function(){t.success(o)},function(e){t.error(e)})}),BUS.Cloud.before_query("test1",function(e,t){t.pass()});
+//# sourceMappingURL=UGLIFY_SOURCE_MAP_TOKEN
